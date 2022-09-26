@@ -1,0 +1,108 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial,Helvetica,sans-serif;
+    text-transform: capitalize;
+    transform: all .2s linear;
+
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#ddd,#aaa);
+    position: relative;
+    overflow:hidden;
+    z-index:0;
+    padding-bottom: 90px;
+}
+
+.container form{
+    width:350px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 45px 25px;
+    box-shadow: 0 6px 8px rgba(0, 0,0,rgba(255, 255, 255, 0.3));
+    border-radius: 15px;
+    backdrop-filter:blur(4px);
+    border-top: 2px solid #fff9;
+    border-left:2px solid #fff9;
+}
+
+.container .profile-icon{
+    display:block;
+    height: 120px;
+    width: 120px;
+    line-height: 110px;
+    text-align: center;
+    color: #999;
+    border: 4px solid #999 ;
+    border-radius: 50%;
+    font-size: 60px;
+    margin: 0 auto;
+    margin-bottom :30px;
+
+}
+
+.container form .box{
+    height : 40px;
+    width:100%;
+    border-radius:50px;
+    border:none;
+    outline:none;
+    padding: 0 20px;
+    margin:10px 0;
+    font-size:17px;
+    color: #666;
+    background:rgba(255, 255, 255, 0.4);
+    text-transform: none;
+}
+.container form input[type="submit"]{
+    height: 38px;
+    width:140px;
+    border-radius:50px;
+    color:#fff;
+    background:deeppink;
+    font-size:17px;
+    border:none;
+    outline:none;
+    margin:20px 0;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0,0,0.3);
+}
+.container form input[type="submit"]:hover{
+    letter-spacing: 2px;
+}
+
+.container form p{
+    padding : 7px 0;
+    color: #666;
+}
+
+.container .password-container{
+    position: relative;
+}
+
+.fa-eye{
+    position: absolute;
+    top: 35%;
+    right:7%;
+    color: #999;
+    cursor:pointer
+}
+
+.fa-eye-slash{
+    position: absolute;
+    top: 35%;
+    right:7%;
+    color: #999;
+    cursor:pointer
+}
+
+.container form p a{
+    color:#333;
+}
